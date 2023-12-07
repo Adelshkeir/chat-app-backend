@@ -52,9 +52,9 @@ io.on(CONNECTION_EVENT, (socket) => {
 });
 
 
-app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/index.html");
-});
+//app.get("/", (req, res) => {
+  //res.sendFile(__dirname + "/index.html");
+//});
 
 server.listen(5000, () => {
   console.log("Server listening on *:5000");
